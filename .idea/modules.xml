@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeForMianshi/CodeForMianshi.iml" filepath="$PROJECT_DIR$/CodeForMianshi/CodeForMianshi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBCtest01/JDBCtest01.iml" filepath="$PROJECT_DIR$/JDBCtest01/JDBCtest01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/project1.iml" filepath="$PROJECT_DIR$/.idea/project1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/反射/反射.iml" filepath="$PROJECT_DIR$/反射/反射.iml" />
+    </modules>
+  </component>
+</project>
