@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    函数
+    function 函数名(参数列表){
+        函数体;
+        return 返回值;
+    }
+     */
+/*    function show(){
+        alert("show run");
+        return 4
+    }
+    var num=show();
+    document.write("num="+num);*/
+
+    /*
+    js中的函数内部内置了一个参数数组，用于存储接收到实际参数，数组名为arguments
+     */
+    function show(x,y){
+        document.write("x="+x+"y="+y);
+    }
+
+    // show(3,4);
+
+    /*
+    js在的函数在内存中就是一个对象，
+    函数名就是指向这个对象的引用
+     */
+    function method(){
+        return 100;
+    }
+    var z=method();//运行method方法，将运算的结果返回并赋值给z
+    var z=method;//将method引用存储的对象的地址赋给z，那么z也指向了这个函数对象
+    // alert("z="+z);//直接弹出z，z指向的对象转成字符串，其实就是调用了tostring方法，函数对象的字符串
+
+    //动态函数。使用js中的已有的内置对象。Function
+    var getsum = new Function("x,y","var sum=x+y;return sum;");
+    /*
+    区别。动态函数的参数列表和函数体都是可以通过参数指定的
+    function getsum(x,y){
+    var sum = x+y;
+    return sum;
+    }
+     */
+    var sum =getsum(4,5);
+    // alert("sum="+sum);
+
+    //匿名函数 简化书写
+    /*function abc(){
+        alert("run");
+    }*/
+    var qq=function(){
+        alert("run");
+    };
+    qq();
+
+
+
+    //在script中创建的变量即使定义在语句中也是全局变量
+    //局部变量，定义在函数中的变量
+   /* function method2(){
+        var n=3;    //局部变量，只在函数中有效。
+    }
+    document.write("n="+n);*/
+
+
+
+</script>
+
+</body>
+</html>

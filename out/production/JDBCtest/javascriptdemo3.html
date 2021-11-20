@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>java script test</title>
+</head>
+<body>
+
+
+<script>
+    /*
+    语句
+    if switch do while while for break continue
+     */
+    /* var x=4;
+     if(x==5){
+         alert("yes");
+     }else {
+         alert("no");
+     }*/
+    //    alert(true+2);//在js中 非0 非null即为true，默认为1，否则都是false，默认0；
+    /*
+    var y=1;
+    while(y<3){
+        alert("y="+y);
+        y++;
+    }
+    */
+/*    for (var i = 0; i < 3; i++) {
+        alert("i=" + i);
+    }*/
+
+    //js中的输出语句
+    document.write("<table>");
+    for (var i = 1; i <=9; i++) {
+        document.write("<tr>");
+        for (var j=1;j<=i;j++){
+            document.write("<td>"+j+"*"+i+"="+(i*j)+"</td>");
+        }
+        document.write("</tr>");
+    }
+    document.write("</table>");
+    
+</script>
+</body>
+</html>
