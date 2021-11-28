@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-8.0.27">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JDBCtest01/lib/mysql-connector-java-8.0.27.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/CodeForMianshi/src" />
+      <root url="file://$PROJECT_DIR$/CodeForMianshi/数据结构" />
+      <root url="file://$PROJECT_DIR$/JDBCtest01/src" />
+      <root url="file://$PROJECT_DIR$/反射/src" />
+    </SOURCES>
+  </library>
+</component>
